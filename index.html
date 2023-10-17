@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <img src="images/logo.svg" alt="Company Logo">
+        </div>
+        <div class="header-navigation">
+            <ul>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Login</a></li>
+                <li class="cart-icon"><img src="images/shoppingCart.svg" alt="Shopping Cart Icon"></li>
+            </ul>
+        </div>
+        <div class="mobile-menu">
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="banner">
+        <img src="images/bannerImage.jpg" alt="Banner Image">
+        <div class="banner-text">
+            <h2>Don't Miss Our Exclusive Discount</h2>
+            <p>Get up to 50% off on selected items for a limited time!</p>
+            <button class="view-products-btn">VIEW PRODUCTS</button>
+        </div>
+    </div>
+    <main>
+        <div class="company-info">
+            <img src="images/companyImg.jpg" alt="Company Image" class="company-image">
+            <div>
+                <h2>About jclothing</h2>
+                <p>At jClothing, we're dedicated to crafting stylish, high-quality clothing using the 
+                    finest materials. Our team of designers and artisans combines creativity and precision 
+                    to create unique, sustainable, and comfortable fashion pieces. With a commitment to responsible 
+                    manufacturing and ethical sourcing, we offer a diverse range of wardrobe options, making jClothing your trusted fashion partner for all occasions.</p>
+            </div>
+        </div>
+        <div class="mission-info">
+            <div>
+                <h2>Our Mission</h2>
+                <p>At jClothing, our mission is to redefine the fashion industry by providing high-quality, 
+                    stylish clothing that not only makes you look good but also feel good about your choices. 
+                    We believe that fashion should be a reflection of individuality, and it should empower you to express 
+                    yourself with confidence.</p>
+            </div>
+            <img src="images/missionImg.jpg" alt="Mission Image" class="mission-image">
+        </div>
+        <h1 class="featured-products">Featured Prdoucts</h1>
+        <div id="productList">
+            <!-- Product items will be appended here using JavaScript -->
+        </div>
+        <h1 class="customer-reviews">Customer Reviews</h1>
+        <div id="product-review">
+            <!-- Reviews/reveiw cards will be appended here using JavaScript -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 JClothing</p>
+        <div class="social-icons">
+            <a href="#" class="icon"><img src="/images/facebook.svg" alt="Facebook"></a>
+            <a href="#" class="icon"><img src="/images/x.svg" alt="X"></a>
+            <a href="#" class="icon"><img src="/images/insta.svg" alt="Instagram"></a>
+            <a href="#" class="icon"><img src="/images/tiktok.svg" alt="TikTok"></a>
+        </div>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
+
